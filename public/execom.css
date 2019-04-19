@@ -1,0 +1,162 @@
+body{
+    background-color: white;
+}
+
+
+.heading {
+     position: absolute;
+}
+
+.image-flip:hover .backside, .image-flip.hover .backside {
+-webkit-transform: rotateY(0deg);
+-moz-transform: rotateY(0deg);
+-o-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+transform: rotateY(0deg);
+}
+.image-flip:hover .frontside, .image-flip.hover .frontside {
+-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+.image-flip {
+margin-bottom:150px;
+width: 300px;
+height: 250px;
+}
+.mainflip {
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-ms-transition: 1s;
+-moz-transition: 1s;
+-moz-transform: perspective(1000px);
+-moz-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: relative;
+}
+.frontside, .backside {
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: 1s;
+-webkit-transform-style: preserve-3d;
+-moz-transition: 1s;
+-moz-transform-style: preserve-3d;
+-o-transition: 1s;
+-o-transform-style: preserve-3d;
+-ms-transition: 1s;
+-ms-transform-style: preserve-3d;
+transition: 1s;
+transform-style: preserve-3d;
+position: absolute;
+
+
+}
+.frontside {
+-webkit-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+z-index: 2;
+}
+.backside {
+background: white;
+-webkit-transform: rotateY(-180deg);
+-moz-transform: rotateY(-180deg);
+-o-transform: rotateY(-180deg);
+-ms-transform: rotateY(-180deg);
+transform: rotateY(-180deg);
+}
+.card, .card-img-top {
+border-radius: 0;
+}
+
+
+.card-header ,h5{
+  font-size: 13px;
+  font-family: 'Merienda', cursive;
+
+}
+.card-text {
+    color:  #7300e6;
+
+}
+
+.footer .facebook:hover {
+    color: #3b5998;
+    font-size: 23px;
+}
+.footer .instagram:hover {
+    color: #fb3958;
+    font-size: 23px;
+}
+.footer .twitter:hover {
+    color: #1da1f2;
+    font-size: 23px;
+}
+
+.footer .facebook {
+    
+    font-size: 23px;
+    margin: 2px;
+}
+.footer .instagram{
+    
+    font-size: 23px;
+    margin: 2px;
+}
+.footer .twitter {
+  
+    font-size: 23px;
+    margin: 2px;
+}
+
+.card-img-top {
+
+height: 200px;
+
+}
+
+
+
+
+#fb_ico:hover {
+    color: #0047b3;
+    font-size: 23px;
+}
+#insta_ico:hover {
+    color: #fb3958;
+    font-size: 23px;
+}
+#twitter_ico:hover {
+    color: #1da1f2;
+    font-size: 23px;
+}
+
+#fb_ico {
+    color: #000000;
+    font-size: 21px;
+    margin: 4px;
+}
+#insta_ico {
+    color: #000000;
+    font-size: 21px;
+     margin: 4px;
+}
+#twitter_ico {
+    color:#000000; 
+    font-size: 21px;
+        margin: 4px;
+
+}
+ .card-body ,h4{
+    font-family:'Lobster', cursive; 
+}
+.card-body ,p{
+      font-family: 'Merienda', cursive;
+}
+
+ }
+
